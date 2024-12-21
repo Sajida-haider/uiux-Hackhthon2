@@ -16,59 +16,54 @@ const Gallery = () => {
         {/* Image 1 */}
         <div className="text-center">
           <Image
-            src="/images/sofa1.jpg" // Ensure your image path is correct (relative to the public folder)
+            src="/images/topsofa1.jpg" // Ensure your image path is correct (relative to the public folder)
             alt="Modern Lamp"
             width={287}
             height={397}
             className="rounded-md"
           />
-          <p className="text-sm text-gray-500 mt-2">Modern Lamp</p>
-          <p className="text-lg font-bold text-gray-800">Rs.25,000.00</p>
+          
         </div>
 
         {/* Image 2 */}
         <div className="text-center">
           <Image
-            src="/images/sofa2.jpg" // Ensure your image path is correct
+            src="/images/topsofa2.jpg" // Ensure your image path is correct
             alt="Elegant Chandelier"
             width={287}
             height={397}
             className="rounded-md"
           />
-          <p className="text-sm text-gray-500 mt-2">Elegant Chandelier</p>
-          <p className="text-lg font-bold text-gray-800">Rs.25,000.00</p>
-        </div>
+         </div>
 
         {/* Image 3 */}
-        <div className="text-center py-16">
+        <div className="text-center ">
           <Image
-            src="/images/sofa3.jpg" // Ensure your image path is correct
+            src="/images/topsofa3.jpg" // Ensure your image path is correct
             alt="Stylish Floor Lamp"
             width={287}
             height={397}
             className="rounded-md"
           />
-          <p className="text-sm text-gray-500 mt-2">Stylish Floor Lamp</p>
-          <p className="text-lg font-bold text-gray-800">Rs.25,000.00</p>
+          
         </div>
 
         {/* Image 4 */}
         <div className="text-center">
           <Image
-            src="/images/sofab.jpg" // Ensure your image path is correct
+            src="/images/topsofa4.jpg" // Ensure your image path is correct
             alt="Table Light"
             width={287}
             height={397}
             className="rounded-md"
           />
-          <p className="text-sm text-gray-500 mt-2">Table Light</p>
-          <p className="text-lg font-bold text-gray-800">Rs.25,000.00</p>
+        
         </div>
       </div>
 
       {/* View More Text */}
       <div className="w-full flex justify-center">
-        <p className="text-center mt-16 py-12 text-2xl font-medium text-black inline-block border-b-2 border-black pb-2">
+        <p className="text-center mt-16 py-2 text-2xl font-medium text-black inline-block border-b-2 border-black pb-2">
           View More
         </p>
       </div>
